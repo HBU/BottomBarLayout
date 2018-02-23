@@ -46,25 +46,25 @@ public class MainActivity extends FragmentActivity {
 
         TabFragment homeFragment = new TabFragment();
         Bundle bundle1 = new Bundle();
-        bundle1.putString(TabFragment.CONTENT,"首页");
+        bundle1.putString(TabFragment.CONTENT,"首页 test");
         homeFragment.setArguments(bundle1);
         mFragmentList.add(homeFragment);
 
         TabFragment videoFragment = new TabFragment();
         Bundle bundle2 = new Bundle();
-        bundle2.putString(TabFragment.CONTENT,"视频");
+        bundle2.putString(TabFragment.CONTENT,"视频 test");
         videoFragment.setArguments(bundle2);
         mFragmentList.add(videoFragment);
 
         TabFragment microFragment = new TabFragment();
         Bundle bundle3 = new Bundle();
-        bundle3.putString(TabFragment.CONTENT,"微头条");
+        bundle3.putString(TabFragment.CONTENT,"微头条 test");
         microFragment.setArguments(bundle3);
         mFragmentList.add(microFragment);
 
         TabFragment meFragment = new TabFragment();
         Bundle bundle4 = new Bundle();
-        bundle4.putString(TabFragment.CONTENT,"我的");
+        bundle4.putString(TabFragment.CONTENT,"我的 test");
         meFragment.setArguments(bundle4);
         mFragmentList.add(meFragment);
     }
